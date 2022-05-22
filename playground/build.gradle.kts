@@ -3,6 +3,7 @@ plugins {
   kotlin("plugin.serialization")
   id("io.bkbn.sourdough.application.jvm")
   id("application")
+  id("com.ncorti.ktfmt.gradle")
 }
 
 sourdoughApp {

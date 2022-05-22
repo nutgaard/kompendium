@@ -1,6 +1,7 @@
 plugins {
   kotlin("jvm")
   id("io.bkbn.sourdough.library.jvm")
+  id("com.ncorti.ktfmt.gradle")
   id("io.gitlab.arturbosch.detekt")
   id("com.adarshr.test-logger")
   id("org.jetbrains.dokka")

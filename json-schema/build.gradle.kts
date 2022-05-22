@@ -3,6 +3,7 @@ plugins {
   kotlin("plugin.serialization")
   id("io.bkbn.sourdough.library.jvm")
   id("io.gitlab.arturbosch.detekt")
+  id("com.ncorti.ktfmt.gradle")
   id("com.adarshr.test-logger")
   id("org.jetbrains.dokka")
   id("maven-publish")
